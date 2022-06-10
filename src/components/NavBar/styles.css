@@ -1,0 +1,41 @@
+
+.navbar {
+  padding: 1.25rem 0;
+  background-color: var(--navbar-bg);
+}
+
+.logo {
+  max-width: 114px;
+
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100%;
+}
+
+
+.avatar {
+  display: flex;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-left: 1.563rem;
+}
+
+.name {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.avatar img {
+  width: 100%;
+}
